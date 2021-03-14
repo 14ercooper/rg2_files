@@ -1,0 +1,1 @@
+fx br s $1 0.8 if both air at 0 -1 0 $2 set 72%air;22%grass;4%tall_grass[half=lower];2%poppy else if and and air at 0 -1 0 tall_grass at 0 -2 0 $2 set tall_grass[half=upper]

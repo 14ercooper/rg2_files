@@ -1,0 +1,1 @@
+fx br e $1 1 $1 0.15 at 0 a$2 0 _ range 0 $3 if air;flowing_water set water else set [waterlogged=true]

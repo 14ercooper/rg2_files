@@ -1,0 +1,43 @@
+This file can be used as a base to create a 14erEdit brush that replaces all of 1 type of spawner with another.
+For example, if you have several zombie spawners and want to change them all to creeper spawners, this will do that.
+
+There are two methods to do this, both following a similar 3 step process.
+The first is easier and works if you still know the data of the old spawner.
+The second requires you to get the coordinates of one of the old spawners and use it as a "reference" to compare to.
+
+Step 1:
+Option A:
+execute if block ~ ~ ~ <spawner_to_replace> run setblock ~ ~ ~ <new_spawner>
+Take this command and replace both <spawner_to_replace> and <new_spawner> with the spawner data from a mcstacker setblock minecraft:spawner command, that is: spawner{SpawnData:{...}}
+
+OR
+
+Option B:
+execute if blocks ~ ~ ~ ~ ~ ~ <coords_of_reference_spawner> masked run setblock ~ ~ ~ <new_spawner>
+
+Replace <new_spawner> with the spawner data from a mcstacker setblock minecraft:spawner command, that is: spawner{SpawnData:{...}}
+Then input the coordinates of the “reference spawner” you using instead of the <coords_of_reference_spawner> 
+
+
+Step 2:
+Save that line with the new spawner data in a .txt file named OldtoNew.txt
+Name the text file OldToNew.txt and move it into the 14erEdit/templates folder.
+
+
+Step 3:
+Boot up the MMS, then use this brush:
+/fx br s 10 0.5 if spawner template OldToNew.txt 0
+
+
+Then you're done! Your brush will replace only the specific type of spawner you want it to!
+
+
+To summarise what each step is doing for clarity:
+Step 1 - create an execute command that checks if the spawner is the one you’re looking for
+Step 2 - save that command inside a .txt file
+Step 3 - put that file in the right folder
+Step 4 - make a brush that targets spawners
+
+
+P.S. if you're using option 2 be careful not to overwrite your reference spawner.
+P.P.S. if you're using lots of different variants of the same mob in a small space, it may be safer to use Option 2.

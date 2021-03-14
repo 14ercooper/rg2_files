@@ -1,0 +1,13 @@
+*.jar
+config.*
+*.yml
+FastAsyncWorldEdit/
+BKCommonLib/
+NBTEditor/
+PluginMetrics/
+VoxelSniper/
+bStats/
+WorldEdit/sessions/
+*.json
+WorldEdit/.archive-unpack/
+pullData.sh

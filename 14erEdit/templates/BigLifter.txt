@@ -1,0 +1,1 @@
+fx br blob 15 15 0 0.5 / / / / macro erode{5;melt;carve} macro erode{11;melt;cut} macro erode{11;melt;raise} macro erode{6;melt;lift} macro erode{17;melt;smooth}
