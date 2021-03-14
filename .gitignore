@@ -11,3 +11,4 @@ WorldEdit/sessions/
 *.json
 WorldEdit/.archive-unpack/
 pullData.sh
+*_clipboard
