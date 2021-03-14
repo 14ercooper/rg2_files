@@ -4,4 +4,4 @@ If files are too large for git - DM them to 14er and they will be added within ~
 
 This pulls every minute. Feel free to add notes to the Notes.txt file.
 
-If the auto-sync breaks, please DM 14er. Pull requests should automatically merge and pull onto the server.
+If the auto-sync breaks, please DM 14er.
