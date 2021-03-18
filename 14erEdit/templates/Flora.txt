@@ -1,0 +1,3 @@
+fx br s $1 0.5 if and air at 0 -1 0 $2 if % $3 
+if % 8 / set tall_grass[half=lower] at 0 1 0 set tall_grass[half=upper]
+else set 85%grass;5%lily_of_the_valley;5%allium;5%pink_tulip

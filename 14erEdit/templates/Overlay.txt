@@ -1,0 +1,1 @@
+fx br s $1 0.5 if both $2 at 0 1 0 air set $3 else if both $2 at 0 2 0 air set $4 else if both $2 at 0 3 0 air set $4

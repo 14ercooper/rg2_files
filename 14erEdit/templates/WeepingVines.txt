@@ -1,0 +1,7 @@
+fx br s $1 0.5 if and air at 0 1 0 $2 if % $3
+/ / / /
+if % 40 / _ - 0 4 if air;weeping_vines_plant;weeping_vines set weeping_vines_plant at 0 -5 0 if air;weeping_vines_plant;weeping_vines set weeping_vines[age=22]
+if % 33 / _ - 0 5 if air;weeping_vines_plant;weeping_vines set weeping_vines_plant at 0 -6 0 if air;weeping_vines_plant;weeping_vines set weeping_vines[age=22]
+if % 25 / _ - 0 6 if air;weeping_vines_plant;weeping_vines set weeping_vines_plant at 0 -7 0 if air;weeping_vines_plant;weeping_vines set weeping_vines[age=22]
+if % 20 / _ - 0 7 if air;weeping_vines_plant;weeping_vines set weeping_vines_plant at 0 -8 0 if air;weeping_vines_plant;weeping_vines set weeping_vines[age=22]
+if % 15 / _ - 0 8 if air;weeping_vines_plant;weeping_vines set weeping_vines_plant at 0 -9 0 if air;weeping_vines_plant;weeping_vines set weeping_vines[age=22]

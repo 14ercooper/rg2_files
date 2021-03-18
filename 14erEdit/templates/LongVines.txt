@@ -1,0 +1,1 @@
+fx br s $1 0.5 if and air at 0 1 0 $2 if % $3 / / / / / / if % 20 _ - 0 9 if air set $4 if % 18 _ - 0 10 if air set $4 if % 16 _ - 0 11 if air set $4 if % 14 _ - 0 12 if air set $4 if % 12 _ - 0 13 if air set $4 if % 10 _ - 0 14 if air set $4 if % 8 _ - 0 15 if air set $4

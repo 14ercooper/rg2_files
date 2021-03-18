@@ -1,0 +1,1 @@
+fx br s $1 0.5 if and air at 0 -1 0 $2 if % $3 set $4
