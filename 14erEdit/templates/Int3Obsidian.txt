@@ -1,0 +1,5 @@
+fx br s $1 0.5 
+if $2
+if adjacent range 1 6 air set black_stained_glass
+else if and adjacent range 0 0 air simplex 4 130 4 set 1%purple_concrete;2%crying_obsidian
+else set obsidian
